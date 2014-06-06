@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-org.jboss.ide.eclipse.as.core.singledeployable.deployableList=\nsrc/main/java/com/nimblebook/framework/engine/ApplicationStarter.java\n
+org.jboss.ide.eclipse.as.core.singledeployable.deployableList=src/main/java/com/nimblebook/framework/engine/ApplicationStarter.java\nsrc/main/java/com/nimblebook/framework/engine/ApplicationStarter.java\n
