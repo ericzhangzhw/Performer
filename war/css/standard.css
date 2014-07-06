@@ -1,0 +1,244 @@
+H1 {
+	color: white;
+	background: teal;
+	FONT-FAMILY: arial, helvetica, lucida-sans, sans-serif;
+	FONT-SIZE: 18pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal
+}
+
+body{
+    text-align:center;
+}
+
+H2 {
+	COLOR: #000000;
+	FONT-FAMILY: sans-serif;
+	FONT-SIZE: 36pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal
+}
+
+H3 {
+	COLOR: #000000;
+	FONT-FAMILY: lucida-sans, sans-serif;
+	FONT-SIZE: 14pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal
+}
+
+H4 {
+	COLOR: #000000;
+	FONT-FAMILY: lucida-sans, sans-serif;
+	FONT-SIZE: 12pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal
+}
+
+H5 {
+	color: white;
+	background: darkblue;
+	FONT-FAMILY: lucida-sans, sans-serif;
+	FONT-SIZE: 12pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal
+}
+
+H6 {
+	color: yellow;
+	background: green;
+	FONT-FAMILY: lucida-sans, sans-serif;
+	FONT-SIZE: 10pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal
+}
+
+body {
+	COLOR: #000000;
+	FONT-FAMILY: lucida-sans, sans-serif;
+	FONT-SIZE: 30pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+}
+
+.localheader {
+	COLOR: #dddddd;
+	FONT-FAMILY: geneva, arial, helvetica, lucida-sans, sans-serif;
+	FONT-SIZE: 15px;
+	TEXT-DECORATION: none
+}
+
+.locallink {
+	COLOR: #dddddd;
+	FONT-FAMILY: geneva, arial, helvetica, lucida-sans, sans-serif;
+	FONT-SIZE: 13px;
+	FONT-WEIGHT: normal;
+	TEXT-DECORATION: none
+}
+
+.localsublink {
+	COLOR: #dddddd;
+	FONT-FAMILY: geneva, arial, helvetica, lucida-sans, sans-serif;
+	FONT-SIZE: 11px;
+	FONT-WEIGHT: normal;
+	TEXT-DECORATION: none
+}
+
+.tm {
+	COLOR: #000000;
+	FONT-FAMILY: geneva, arial, helvetica, lucida-sans, sans-serif;
+	FONT-SIZE: 8pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal
+}
+
+
+A:link .nonu {
+	COLOR: #000000;
+	TEXT-DECORATION: none
+}
+
+.nonuw {
+	COLOR: #ffffff;
+	TEXT-DECORATION: none
+}
+
+A:visited .nonu {
+	TEXT-DECORATION: none
+}
+
+.linespace {
+	LINE-HEIGHT: 120%
+}
+
+.just {
+	TEXT-ALIGN: justify
+}
+
+CODE {
+	COLOR: #666666;
+	FONT-FAMILY: courier, monaco, courier new;
+	FONT-SIZE: 12pt
+}
+
+KBD {
+	COLOR: #666666;
+	FONT-FAMILY: courier, monaco, courier new;
+	FONT-SIZE: 12pt
+}
+
+select {
+	padding: 5px;
+	margin: 0;
+	background: #34495e;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 60px;
+	width: 200px
+}
+
+.button {
+	display: inline-block;
+	padding: 5px 60px;
+	border: 2px solid #ddd;
+	color: #ddd;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 15px 5px 0 5px;
+	transition: all .2s;
+}
+
+.button:hover {
+	background: #ddd;
+	color: #777;
+}
+
+.button.okay {
+	border-color: #3498db;
+	color: #3498db;
+}
+
+.button.okay:hover {
+	background: #3498db;
+	color: #fff;
+}
+
+.button.danger {
+	border-color: #e74c3c;
+	color: #e74c3c;
+}
+
+.button.danger:hover {
+	background: #e74c3c;
+	color: #fff;
+}
+
+.button.success {
+	border-color: #666699;
+	color: #666699;
+	FONT-SIZE: 20pt;
+}
+
+.button.success:hover {
+	background: #27ae60;
+	color: #fff;
+}
+
+.button.info {
+	border-color: #f1c40f;
+	color: #f1c40f;
+}
+
+.button.info:hover {
+	background: #f1c40f;
+	color: #fff;
+}
+
+.button.register {
+	border-color: #34495e;
+	color: #34495e;
+}
+
+.button.register:hover {
+	background: #34495e;
+	color: #fff;
+}
+
+.square {
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+	border-color: #f1c40f;
+	color: #f1c40f;
+}
+
+a:link {
+	color: #00FF00;
+	FONT-FAMILY: lucida-sans, sans-serif;
+	FONT-SIZE: 12pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal
+}
+
+a:visited {
+	color: #666699;
+}
+
+td {
+	FONT-SIZE: 18pt;
+	FONT-FAMILY:sans-serif;
+}
+a:hover {
+	color: #FF0000;
+}
+
+a:active {
+	color: #0000FF;
+}
+
+.text.generic {
+	border-color: #000099;
+	color: #666699;
+	FONT-SIZE: 24pt
+}
