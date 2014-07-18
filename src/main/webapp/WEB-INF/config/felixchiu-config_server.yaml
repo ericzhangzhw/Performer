@@ -1,0 +1,43 @@
+--- # server specific parameters, overrides global values
+
+workDirectory : /Users/felixchiu/nimblebook/clucene
+
+mqConfiguration : 
+    discoveryURI : 
+    #    - 127.0.0.1:61616
+    networkTTL : 2
+    #
+    # failover = true to randomly select a network MQ node
+    # Otherwise fallback to "master-slave" discovery protocol
+    #
+    failover : false
+    #
+    # local MQ instance to segregate MQ traffic
+    # all local message queues and topics are prefixed with "private."
+    #
+    port : 61617
+    directoryOffset : nimble-mq
+    consolePort: 61671
+
+
+    
+    #
+    # cLucene parameters
+    # 
+cassandra:
+    clucene:
+        port: 9042
+        server: 127.0.0.1
+        keyspace : clucene
+     
+clucene:
+    aggregate:
+        seconds : 10
+        size : 10 
+    concurrent:
+        index :
+            worker : 10
+        search:
+            worker : 10
+
+    
