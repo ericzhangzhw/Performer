@@ -2,13 +2,13 @@
 
 platformVersion : 0.3.0
 workDirectory : /home/vss
-domain : cliqueintelligence.com
-domainId : CI
+domain : nimblebook.com
+domainId : NB
 
-cassandraKeySpace : clique
+cassandraKeySpace : nimblebook
 storageKeySpace: vs
 resourceKeySpace: resources
-searchKeySpace: clucene
+searchKeySpace: nimble
 
 cassandraCqlPort : 9042
 cassandraHosts:
@@ -37,4 +37,4 @@ mqConfiguration :
     password : password
     #
     port : 61617
-    directoryOffset : clique-mq
+    directoryOffset : nimble-mq

@@ -1,6 +1,6 @@
 --- # server specific parameters, overrides global values
 
-workDirectory : /Users/felixchiu/tmp/clucene
+workDirectory : /Users/felixchiu/nimblebook/clucene
 
 mqConfiguration : 
     discoveryURI : 
@@ -16,7 +16,7 @@ mqConfiguration :
     # all local message queues and topics are prefixed with "private."
     #
     port : 61617
-    directoryOffset : clique-mq
+    directoryOffset : nimble-mq
     consolePort: 61671
 
 

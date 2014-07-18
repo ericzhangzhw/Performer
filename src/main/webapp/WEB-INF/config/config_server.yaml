@@ -1,6 +1,6 @@
 --- # server specific parameters, overrides global values
 
-workDirectory : /Users/ericlaw/ci-test
+workDirectory : /Users/felixchiu/nimblebook
 
 mqConfiguration : 
     discoveryURI : 
@@ -16,7 +16,7 @@ mqConfiguration :
     # all local message queues and topics are prefixed with "private."
     #
     port : 61617
-    directoryOffset : clique-mq
+    directoryOffset : nimble-mq
     consolePort: 61671
 
 #
@@ -34,21 +34,9 @@ concurrent:
 storageConnector:
     label: Simple File System
     protocol : file://
-    repository : /Users/ericlaw/ci-test/StorageConnector/inbox
+    repository : /Users/felixchiu/nimblebook/StorageConnector/inbox
     gatewayUrl : ws://localhost:8080/vsg/connector
 
 concurrent:
     index:
         worker: 10
-    
-cassandra:
-    clucene:
-        port: 9042
-        server: 127.0.0.1
-    #
-    # cLucene connection parameters
-    #  
-clucene:
-    keyspace : clucene
-    aggregatorWaitTime : 10
-    aggregatorBufferSize : 10 
