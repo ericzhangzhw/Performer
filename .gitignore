@@ -42,5 +42,4 @@ Thumbs.db
 .classpath
 *.component
 
-services/cLucene/.settings/org.eclipse.wst.common.component
 target/

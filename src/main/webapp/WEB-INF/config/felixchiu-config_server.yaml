@@ -1,6 +1,6 @@
 --- # server specific parameters, overrides global values
 
-workDirectory : /Users/felixchiu/nimblebook/clucene
+workDirectory : /Users/felixchiu/nimblebook/
 
 mqConfiguration : 
     discoveryURI : 

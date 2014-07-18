@@ -68,9 +68,9 @@ public class SystemConfig implements SystemConfigBase {
 	private static WebApplicationContext webCtx;
 	
 	@SuppressWarnings({ "unchecked" })
-	public SystemConfig(WebApplicationContext webCtx1) {
+	public SystemConfig(WebApplicationContext webCtx) {
 		SystemConfig.confInstance = this;
-		webCtx = webCtx1;
+		this.webCtx = webCtx;
 		/*
 		 * Get servlet context from web application context
 		 */
