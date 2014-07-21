@@ -67,7 +67,7 @@ public class SystemConfig implements SystemConfigBase {
 	
 	private static WebApplicationContext webCtx;
 	
-	@SuppressWarnings({ "unchecked" })
+	@SuppressWarnings({ "unchecked", "static-access" })
 	public SystemConfig(WebApplicationContext webCtx) {
 		SystemConfig.confInstance = this;
 		this.webCtx = webCtx;
