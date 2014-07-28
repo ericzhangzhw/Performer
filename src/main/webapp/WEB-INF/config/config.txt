@@ -9,7 +9,7 @@
 #
 # CI domain name
 #
-	"ci-domain": "cliqueintelligence.com",
+	"ci-domain": "nimblebook.com",
 	"xmpp-system-user": {"id": "service-notification", "password": "cd4c05fc2b394f8a8245a9b6dc923144"},
 
 #
